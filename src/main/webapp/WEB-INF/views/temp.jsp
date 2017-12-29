@@ -9,14 +9,17 @@
 <title>Insert title here</title>
 </head>
 <body>
-Name: ${name}
-<br />
-Color: ${color}
 
 <br />
 
-<c:forEach items="${madlibs}" var="madlib">
-	${madlib.story}
-</c:forEach>
+
+	${madlib.getStory()}
+
+
+<br />
+<a href="/index" type="button">Home</a>
+
+<br />
+
 </body>
 </html>
