@@ -2,6 +2,7 @@ package com.madlibs;
 
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import org.springframework.stereotype.Service;
 
@@ -11,7 +12,10 @@ public class StoryMaker {
 	private static String[] stories = new String[2];
 	private static String[] pos = new String[8];
 	
-	private static List<MadLib> madlibs = new ArrayList<MadLib>();
+	private List<MadLib> madlibs = Arrays.asList(
+		new MadLib(1, "Christmas Time", stories[0], 2, new String[] {pos[5], pos[5]}),
+		new MadLib(2, "Happy Birthday", stories[1], 2, new String[] {pos[5], pos[3]})
+	);
 
 			
 	static {
@@ -26,11 +30,11 @@ public class StoryMaker {
 	
 		stories[0] = "Hello %1s, my name is %2s.";
 		stories[1] = "Happy birthday, %1s! I hope you have a %2s day!";
-		
-		madlibs.add(new MadLib(1, "Christmas Time", stories[0], 2, new String[] {pos[5], pos[5]}));
-		madlibs.add(new MadLib(2, "Happy Birthday", stories[1], 2, new String[] {pos[5], pos[3]}));
 	
 	}
+	
+//	madlibs.add(new MadLib(1, "Christmas Time", stories[0], 2, new String[] {pos[5], pos[5]}));
+//	madlibs.add(new MadLib(2, "Happy Birthday", stories[1], 2, new String[] {pos[5], pos[3]}));
 	
 	public List<MadLib> getMadLibs() {
 		return madlibs;
@@ -45,9 +49,9 @@ public class StoryMaker {
 		return null;
 	}
 	
-	public void buildStory(MadLib m, Object[] inputs) {
+	public String buildStory(MadLib m, Object[] inputs) {
 		String libbing = m.getStory();
-		m.setStory(String.format(libbing.toString(), inputs));
+		return String.format(libbing.toString(), inputs);
 	}
 	
 	public void resetStory(MadLib m) {

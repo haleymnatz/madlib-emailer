@@ -38,7 +38,7 @@ public class MadLibController {
 	@RequestMapping(value = "/storyForm", method = RequestMethod.GET)
 	public String showStoryForm(ModelMap model, @RequestParam int id) {
         MadLib m = storymaker.retrieveMadLib(id);
-        storymaker.resetStory(m);
+//        storymaker.resetStory(m);
         model.addAttribute("madlib", m);
 		return "storyForm";
 	}
@@ -48,17 +48,18 @@ public class MadLibController {
 		
 		MadLib m = storymaker.retrieveMadLib(id);
 		
-		m.setUserInputs(userInputs);
-		storymaker.buildStory(m, userInputs);
+//		m.setUserInputs(userInputs);
+		String newStory = storymaker.buildStory(m, userInputs);
+		redir.addAttribute("newStory", newStory);
 
 		redir.addAttribute("id", id);
 		return "redirect:/temp";
 	}
 	
 	@RequestMapping(value = "/temp", method = RequestMethod.GET)
-	public String temp(ModelMap model, @RequestParam int id, RedirectAttributes redir) {
+	public String temp(ModelMap model, @RequestParam int id, RedirectAttributes redir, @RequestParam String newStory) {
         MadLib m = storymaker.retrieveMadLib(id);
-        System.out.println(m.getStory());
+        model.addAttribute("newStory", newStory);
         model.addAttribute("madlib", m);
         redir.addAttribute("id", id);
 		return "temp";

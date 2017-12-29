@@ -10,10 +10,10 @@
 </head>
 <body>
 
+${newStory}
 <br />
 
-
-	${madlib.getStory()}
+${madlib.getStory()}
 
 
 <br />
