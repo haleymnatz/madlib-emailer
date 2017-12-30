@@ -1,7 +1,7 @@
 <%@ include file="fragments/header.jspf" %>
 <%@ include file="fragments/navigation.jspf" %>
 
-<div class="container">
+<div class="content">
 	<h1>Hello Friends!</h1>
 
 	<br/><br/>
