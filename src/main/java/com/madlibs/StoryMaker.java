@@ -33,20 +33,20 @@ public class StoryMaker {
 		pos[5] = "Place";
 		pos[6] = "Plural noun";
 		pos[7] = "Verb";
-		pos[8] = "Verb (present tense";
+		pos[8] = "Verb ending in \"ing\"";
 		pos[9] = "Body part";
 	
 		stories[0] = "Hello %1s, my name is %2s.";
 		stories[1] = "Happy birthday, %1s! I hope you have a %2s day!";
-		stories[2] = "Love is a %1s thing\n" + 
-				 	 "It is a feeling that\n" + 
-				 	 "makes your heart %2s.\n" + 
-				 	 "\n" + 
-				 	 "Whether you are far or near\n" + 
-				 	 "it is like %3s in my ear.\n" + 
-				 	 "\n" + 
-				 	 "When you find true love\n" + 
-				 	 "it is something you\n" + 
+		stories[2] = "Love is a %1s thing<br/>" + 
+				 	 "It is a feeling that <br/>" + 
+				 	 "makes your heart %2s.<br/>" + 
+				 	 "<br/>" + 
+				 	 "Whether you are far or near<br/>" + 
+				 	 "it is like %3s in my ear.<br/>" + 
+				 	 "<br/>" + 
+				 	 "When you find true love<br/>" + 
+				 	 "it is something you<br/>" + 
 				 	 "keep within your %4s. ";
 	
 	}

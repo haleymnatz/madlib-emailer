@@ -3,7 +3,7 @@
 
 <div class="content">
 	${newStory}
-	<br />
+	<br /><br/>
 	
 	${madlib.getStory()}
 	

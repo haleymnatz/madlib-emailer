@@ -2,7 +2,7 @@
 <%@ include file="fragments/navigation.jspf" %>
 
 <div class="content">
-	<h1>Hello Friends!</h1>
+	<h1 class="center-text">${madlib.getTitle()}</h1>
 
 	<br/><br/>
 	<table class="table">
@@ -18,12 +18,11 @@
 						</tr>
 					</c:forEach>
 					<tr>
-					<td><input class="btn btn-outline-primary" type="submit" value="Submit" /><br/><br/></td>
+						<td><input class="btn btn-outline-success" type="submit" value="Submit" /><br/><br/></td>
 					</tr>
 			</form:form>
 		</tbody>
 	</table>
-	<br/>
 </div>
 
 <%@ include file="fragments/footer.jspf" %>

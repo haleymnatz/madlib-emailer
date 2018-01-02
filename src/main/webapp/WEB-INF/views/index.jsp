@@ -2,11 +2,11 @@
 <%@ include file="fragments/navigation.jspf" %>
 
 <div class="content">
-	<h1 class="d-flex justify-content-center"">Welcome to HappyLibs!</h1>
+	<h1 class="d-flex justify-content-center">Welcome to HappyLibs!</h1>
 	
 	<br/><br/>
 	
-	<h3 class="welcome-command">Choose your story below!</h3>
+	<h3 class="center-text">Choose your story below!</h3>
 	
 	<c:forEach items="${madlibs}" var="madlib">
 		<div class="card text-center">
