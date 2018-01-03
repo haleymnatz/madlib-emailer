@@ -8,23 +8,30 @@ import org.springframework.stereotype.Service;
 @Service
 public class StoryMaker {
 	
-	private static String[] stories = new String[2];
-	private static String[] pos = new String[11];
+	private static String[] stories = new String[3];
+	private static String[] pos = new String[13];
 	
 	private List<MadLib> madlibs = Arrays.asList(
-		new MadLib(0, "Precious Love", stories[0], 4, new String[] {
+		new MadLib(0, "Precious Love", stories[0], 4, "Valentine\'s Day", new String[] {
 				pos[0],
 				pos[7],
 				pos[8],
 				pos[9]
 		}),
-		new MadLib(1, "Mary Had a Little Lamb", stories[1], 6, new String[] {
+		new MadLib(1, "Mary Had a Little Lamb", stories[1], 6, "Nursery Rhymes Gone Wrong", new String[] {
 				pos[10],
 				pos[9],
 				pos[2],
 				pos[3],
 				pos[5],
 				pos[7]
+		}),
+		new MadLib(2, "Three Blind Mice", stories[2], 0, "Nursery Rhymes Gone Wrong", new String[] {
+				pos[0],
+				pos[7],
+				pos[11],
+				pos[12],
+				pos[3]
 		})
 	);
 
@@ -41,6 +48,8 @@ public class StoryMaker {
 		pos[8] = "Verb ending in \"ing\"";
 		pos[9] = "Body part";
 		pos[10] = "Animal";
+		pos[11] = "Person";
+		pos[12] = "Verb - past tense";
 	
 		stories[0] = "Love is a %1s thing<br/>" + 
 				 	 "It is a feeling that <br/>" + 
@@ -55,15 +64,22 @@ public class StoryMaker {
 		
 		stories[1] = "Mary had a little %1$s <br/>" +
 				"Its %2$s was %3$s as %4$s, <br/>" + 
+				"<br/>" + 
 				"And every where that Mary went <br/>" + 
-				"<br/>" + 
 				"The %1$s was sure to go.<br/>" + 
+				"<br/>" + 
 				"He followed her to %5$s one day <br/>" + 
-				"<br/>" + 
 				"That was against the rule, <br/>" + 
-				"It made the children laugh and %6$s, <br/>" +
 				"<br/>" + 
+				"It made the children laugh and %6$s, <br/>" +
 				"To see a %1$s at %5$s. <br/>";
+		
+		stories[2] = "Three %1$s mice. Three %1$s mice.<br/>" + 
+				"See how they %2$s. See how they %2$s.<br/>" + 
+				"They all ran after %3$s,<br/>" + 
+				"Who %4$s their tails with a %5$s,<br/>" + 
+				"Did you ever see such a sight in your life,<br/>" + 
+				"As three %1$s mice?";
 	}
 	
 	public List<MadLib> getMadLibs() {

@@ -2,10 +2,13 @@
 <%@ include file="fragments/navigation.jspf" %>
 
 <div class="content">
-	${newStory}
+	<h1 class="center-text">${madlib.title}</h1><br/><br/>
+	<div>
+		${newStory}
+	</div>
 	<br /><br/>
 	
-	<a href="/index" type="button">Home</a>
+	<a href="/index" type="button" class="btn btn-outline-info">Return Home</a>
 	
 	<br />
 </div>

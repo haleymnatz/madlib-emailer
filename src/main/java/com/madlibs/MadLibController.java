@@ -58,8 +58,13 @@ public class MadLibController {
         MadLib m = storymaker.retrieveMadLib(id);
         model.addAttribute("newStory", newStory);
         model.addAttribute("madlib", m);
-        redir.addAttribute("id", id);
+//        redir.addAttribute("id", id);
 		return "temp";
+	}
+	
+	@RequestMapping(value = "/about", method = RequestMethod.GET)
+	public String about() {
+		return "about";
 	}
 
 }

@@ -8,18 +8,18 @@ public class MadLib {
 	private String title;
 	private String story;
 	private int inputNumber;
+	private String tag;
 	private String[] wordTypes;
-	private String[] userInputs;
 	
 	
-	public MadLib(int id, String title, String story, int inputNumber, String[] wordTypes, String[] userInputs) {
+	public MadLib(int id, String title, String story, int inputNumber, String tag, String[] wordTypes) {
 		super();
 		this.id = id;
 		this.title = title;
 		this.story = story;
 		this.inputNumber = inputNumber;
 		this.wordTypes = wordTypes;
-		this.userInputs = userInputs;
+		this.tag = tag;
 	}
 
 	public MadLib(int id, String title, String story, int inputNumber, String[] wordTypes) {
@@ -31,12 +31,12 @@ public class MadLib {
 		this.wordTypes = wordTypes;
 	}
 
-	public MadLib(String story, int inputNumber, String[] wordTypes, String[] userInputs) {
+	public MadLib(String story, int inputNumber,  String tag, String[] wordTypes) {
 		super();
 		this.story = story;
 		this.inputNumber = inputNumber;
 		this.wordTypes = wordTypes;
-		this.userInputs = userInputs;
+		this.tag = tag;
 	}
 
 	public MadLib(String story, int inputNumber, String[] wordTypes) {
@@ -64,14 +64,6 @@ public class MadLib {
 		this.title = title;
 	}
 
-	public String[] getUserInputs() {
-		return userInputs;
-	}
-
-	public void setUserInputs(String[] userInputs) {
-		this.userInputs = userInputs;
-	}
-
 	public int getInputNumber() {
 		return inputNumber;
 	}
@@ -94,6 +86,14 @@ public class MadLib {
 
 	public void setStory(String story) {
 		this.story = story;
+	}
+
+	public String getTag() {
+		return tag;
+	}
+
+	public void setTag(String tag) {
+		this.tag = tag;
 	}
 
 }

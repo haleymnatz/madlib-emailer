@@ -6,7 +6,7 @@
 	
 	<br/><br/>
 	
-	<h3 class="center-text">Choose your story below!</h3>
+	<h3 class="center-text">Choose your story below!</h3><br />
 	
 	<c:forEach items="${madlibs}" var="madlib">
 		<div class="card text-center">
