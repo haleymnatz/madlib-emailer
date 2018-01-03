@@ -14,8 +14,8 @@
 							<td><label for="userInputs[${status.index}]">${wordType}</label></td>
 							
 							<td><input name="userInputs" type="text"></input></td>
-							<br/>
 						</tr>
+						<br />
 					</c:forEach>
 					<tr>
 						<td><input class="btn btn-outline-success" type="submit" value="Submit" /><br/><br/></td>

@@ -1,7 +1,5 @@
 package com.madlibs;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -38,7 +36,7 @@ public class MadLibController {
 	@RequestMapping(value = "/storyForm", method = RequestMethod.GET)
 	public String showStoryForm(ModelMap model, @RequestParam int id) {
         MadLib m = storymaker.retrieveMadLib(id);
-//        storymaker.resetStory(m);
+
         model.addAttribute("madlib", m);
 		return "storyForm";
 	}
@@ -48,7 +46,6 @@ public class MadLibController {
 		
 		MadLib m = storymaker.retrieveMadLib(id);
 		
-//		m.setUserInputs(userInputs);
 		String newStory = storymaker.buildStory(m, userInputs);
 		redir.addAttribute("newStory", newStory);
 

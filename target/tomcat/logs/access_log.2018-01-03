@@ -1,0 +1,17 @@
+127.0.0.1 - - [03/Jan/2018:09:26:05 -0500] "GET /index HTTP/1.1" 200 1639 http-bio-8080-exec-1 415
+127.0.0.1 - - [03/Jan/2018:09:26:05 -0500] "GET /resources/css/main.css HTTP/1.1" 304 - http-bio-8080-exec-2 52
+127.0.0.1 - - [03/Jan/2018:09:26:07 -0500] "GET /storyForm?id=1 HTTP/1.1" 200 2432 http-bio-8080-exec-4 75
+127.0.0.1 - - [03/Jan/2018:09:26:18 -0500] "POST /storyForm HTTP/1.1" 302 - http-bio-8080-exec-5 11
+127.0.0.1 - - [03/Jan/2018:09:26:18 -0500] "GET /temp?newStory=Mary+had+a+little+A+%3Cbr%2F%3EIts+B+was+C+as+D%2C+%3Cbr%2F%3EAnd+every+where+that+Mary+went+%3Cbr%2F%3E%3Cbr%2F%3EThe+lamb+was+sure+to+go.%3Cbr%2F%3EHe+followed+her+to+E+one+day+%3Cbr%2F%3E%3Cbr%2F%3EThat+was+against+the+rule%2C+%3Cbr%2F%3EIt+made+the+children+laugh+and+F%2C+%3Cbr%2F%3E&id=1 HTTP/1.1" 200 1612 http-bio-8080-exec-6 17
+127.0.0.1 - - [03/Jan/2018:09:27:08 -0500] "GET /index HTTP/1.1" 200 1639 http-bio-8080-exec-7 110
+127.0.0.1 - - [03/Jan/2018:09:27:10 -0500] "GET /storyForm?id=1 HTTP/1.1" 200 2432 http-bio-8080-exec-8 33
+127.0.0.1 - - [03/Jan/2018:09:27:18 -0500] "POST /storyForm HTTP/1.1" 302 - http-bio-8080-exec-9 6
+127.0.0.1 - - [03/Jan/2018:09:27:18 -0500] "GET /temp?newStory=Mary+had+a+little+A+%3Cbr%2F%3EIts+B+was+C+as+D%2C+%3Cbr%2F%3EAnd+every+where+that+Mary+went+%3Cbr%2F%3E%3Cbr%2F%3EThe+lamb+was+sure+to+go.%3Cbr%2F%3EHe+followed+her+to+E+one+day+%3Cbr%2F%3E%3Cbr%2F%3EThat+was+against+the+rule%2C+%3Cbr%2F%3EIt+made+the+children+laugh+and+F%2C+%3Cbr%2F%3E%3Cbr%2F%3ETo+see+a+A+at+E.+%3Cbr%2F%3E&id=1 HTTP/1.1" 200 1672 http-bio-8080-exec-10 11
+127.0.0.1 - - [03/Jan/2018:09:30:13 -0500] "GET /index HTTP/1.1" 200 1639 http-bio-8080-exec-2 3102
+127.0.0.1 - - [03/Jan/2018:09:30:15 -0500] "GET /storyForm?id=0 HTTP/1.1" 200 2106 http-bio-8080-exec-4 31
+127.0.0.1 - - [03/Jan/2018:09:30:25 -0500] "POST /storyForm HTTP/1.1" 302 - http-bio-8080-exec-4 12
+127.0.0.1 - - [03/Jan/2018:09:30:25 -0500] "GET /temp?newStory=Love+is+a+poppy+thing%3Cbr%2F%3EIt+is+a+feeling+that+%3Cbr%2F%3Emakes+your+heart+smell.%3Cbr%2F%3E%3Cbr%2F%3EWhether+you+are+far+or+near%3Cbr%2F%3Eit+is+like+loving+in+my+ear.%3Cbr%2F%3E%3Cbr%2F%3EWhen+you+find+true+love%3Cbr%2F%3Eit+is+something+you%3Cbr%2F%3Ekeep+within+your+nose.+&id=0 HTTP/1.1" 200 1590 http-bio-8080-exec-4 10
+127.0.0.1 - - [03/Jan/2018:09:30:29 -0500] "GET /index HTTP/1.1" 200 1639 http-bio-8080-exec-6 14
+127.0.0.1 - - [03/Jan/2018:09:30:30 -0500] "GET /storyForm?id=0 HTTP/1.1" 200 2106 http-bio-8080-exec-7 9
+127.0.0.1 - - [03/Jan/2018:09:30:34 -0500] "POST /storyForm HTTP/1.1" 302 - http-bio-8080-exec-7 8
+127.0.0.1 - - [03/Jan/2018:09:30:34 -0500] "GET /temp?newStory=Love+is+a+1+thing%3Cbr%2F%3EIt+is+a+feeling+that+%3Cbr%2F%3Emakes+your+heart++2.%3Cbr%2F%3E%3Cbr%2F%3EWhether+you+are+far+or+near%3Cbr%2F%3Eit+is+like+++3+in+my+ear.%3Cbr%2F%3E%3Cbr%2F%3EWhen+you+find+true+love%3Cbr%2F%3Eit+is+something+you%3Cbr%2F%3Ekeep+within+your++++4.+&id=0 HTTP/1.1" 200 1580 http-bio-8080-exec-7 8

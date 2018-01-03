@@ -1,6 +1,5 @@
 package com.madlibs;
 
-import java.util.Arrays;
 
 public class MadLib {
 	
