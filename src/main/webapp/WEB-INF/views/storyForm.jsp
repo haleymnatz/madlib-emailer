@@ -12,7 +12,7 @@
 						<tr class="table-borderless">
 							<td><label for="userInputs[${status.index}]">${wordType}</label></td>
 							
-							<td><input name="userInputs" type="text"></input></td>
+							<td><input name="userInputs" type="text" required></input></td>
 						</tr>
 						<br />
 					</c:forEach>
