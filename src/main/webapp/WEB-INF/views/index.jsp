@@ -12,7 +12,7 @@
 		<div class="card text-center">
 			<div class="card-body">
 				<h4>${madlib.title}</h4>
-				<a href="/storyForm?id=${madlib.id}" class="btn btn-outline-success">Click here to do this HappyLib!</a>
+				<a href="/storyForm?id=${madlib.id}" class="btn btn-outline-success">Do this HappyLib!</a>
 			</div>
 		</div>
 		<br/>
