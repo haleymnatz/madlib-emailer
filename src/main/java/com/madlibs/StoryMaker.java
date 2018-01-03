@@ -62,24 +62,24 @@ public class StoryMaker {
 				 	 "it is something you<br/>" + 
 				 	 "keep within your <span>%4s</span>. ";
 		
-		stories[1] = "Mary had a little %1$s <br/>" +
-				"Its %2$s was %3$s as %4$s, <br/>" + 
+		stories[1] = "Mary had a little <span>%1$s</span> <br/>" +
+				"Its <span>%2$s</span> was <span>%3$s</span> as <span>%4$s</span>, <br/>" + 
 				"<br/>" + 
 				"And every where that Mary went <br/>" + 
-				"The %1$s was sure to go.<br/>" + 
+				"The <span>%1$s</span> was sure to go.<br/>" + 
 				"<br/>" + 
-				"He followed her to %5$s one day <br/>" + 
+				"He followed her to <span>%5$s</span> one day <br/>" + 
 				"That was against the rule, <br/>" + 
 				"<br/>" + 
-				"It made the children laugh and %6$s, <br/>" +
-				"To see a %1$s at %5$s. <br/>";
+				"It made the children laugh and <span>%6$s</span>, <br/>" +
+				"To see a <span>%1$s</span> at <span>%5$s</span>. <br/>";
 		
-		stories[2] = "Three %1$s mice. Three %1$s mice.<br/>" + 
-				"See how they %2$s. See how they %2$s.<br/>" + 
-				"They all ran after %3$s,<br/>" + 
-				"Who %4$s their tails with a %5$s,<br/>" + 
+		stories[2] = "Three <span>%1$s</span> mice. Three <span>%1$s</span> mice.<br/>" + 
+				"See how they <span>%2$s</span>. See how they <span>%2$s</span>.<br/>" + 
+				"They all ran after <span>%3$s</span>,<br/>" + 
+				"Who <span>%4$s</span> their tails with a <span>%5$s</span>,<br/>" + 
 				"Did you ever see such a sight in your life,<br/>" + 
-				"As three %1$s mice?";
+				"As three <span>%1$s</span> mice?";
 	}
 	
 	public List<MadLib> getMadLibs() {

@@ -33,3 +33,7 @@ body {
 span {
 	color: #0044b2;
 }
+
+.btn:hover {
+	cursor: pointer;
+}
