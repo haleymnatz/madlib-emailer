@@ -14,7 +14,7 @@
 	
 	<p>
 		HappyLibs! was created by Haley Mnatzaganian using Java and Spring MVC as a fun way to learn some new programming technologies.
-		Check out her other works in the project section on her <a href="https://www.linkedin.com/in/haleymnatzaganian/">LinkedIn</a>
+		Check out her other works in the project section of her <a href="https://www.linkedin.com/in/haleymnatzaganian/">LinkedIn</a>
 		or email her at haleymnatz@gmail.com.
 	</p>
 </div>

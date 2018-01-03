@@ -8,7 +8,7 @@
 	</div>
 	<br /><br/>
 	
-	<a href="/index" type="button" class="btn btn-outline-info">Return Home</a>
+	<a href="/index" type="button" class="btn btn-outline-primary">Return Home</a>
 	
 	<br />
 </div>

@@ -51,16 +51,16 @@ public class StoryMaker {
 		pos[11] = "Person";
 		pos[12] = "Verb - past tense";
 	
-		stories[0] = "Love is a %1s thing<br/>" + 
+		stories[0] = "Love is a <span>%1s</span> thing<br/>" + 
 				 	 "It is a feeling that <br/>" + 
-				 	 "makes your heart %2s.<br/>" + 
+				 	 "makes your heart <span>%2s</span>.<br/>" + 
 				 	 "<br/>" + 
 				 	 "Whether you are far or near<br/>" + 
-				 	 "it is like %3s in my ear.<br/>" + 
+				 	 "it is like <span>%3s</span> in my ear.<br/>" + 
 				 	 "<br/>" + 
 				 	 "When you find true love<br/>" + 
 				 	 "it is something you<br/>" + 
-				 	 "keep within your %4s. ";
+				 	 "keep within your <span>%4s</span>. ";
 		
 		stories[1] = "Mary had a little %1$s <br/>" +
 				"Its %2$s was %3$s as %4$s, <br/>" + 

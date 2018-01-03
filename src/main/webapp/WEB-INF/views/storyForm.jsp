@@ -17,7 +17,7 @@
 						<br />
 					</c:forEach>
 					<tr class="table-borderless">
-						<td><input class="btn btn-outline-success" type="submit" value="Submit" /><br/><br/></td>
+						<td><input class="btn btn-outline-success" type="submit" value="See My HappyLib!" /><br/><br/></td>
 					</tr>
 			</form:form>
 		</tbody>

@@ -27,4 +27,9 @@ body {
 .card {
 	width: 75%;
 	margin: auto;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+
+span {
+	color: #0044b2;
 }
